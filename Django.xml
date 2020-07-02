@@ -70,12 +70,6 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="block" value="{% block $BLOCK$ %}$END${% endblock %}" description="Django template block" toReformat="false" toShortenFQNames="true">
-    <variable name="BLOCK" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML" value="true" />
-    </context>
-  </template>
   <template name="ifelse" value="{% if $VAR$ %}&#10;    $SELECTION$$END$&#10;{% else %}&#10;    $SELECTION$&#10;{% endif %}" description="Django template if/else statement" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
